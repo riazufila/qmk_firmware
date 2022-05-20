@@ -107,7 +107,7 @@ enum anne_pro_layers {
 
 void keyboard_post_init_user(void) {
     ap2_led_enable();
-    ap2_led_set_profile(8);
+    ap2_led_set_profile(7);
 }
 
 layer_state_t layer_state_set_user(layer_state_t state) {
