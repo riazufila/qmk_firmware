@@ -110,7 +110,7 @@ qk_tap_dance_action_t tap_dance_actions[] = {
     _______, _______, KC_UP, _______, _______, _______, _______, _______, _______, _______, KC_PSCR, KC_HOME, KC_END, _______,
     _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, KC_PGUP, KC_PGDN, _______,
     _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______, _______, _______, _______, KC_INS, KC_DEL, _______,
-    _______, _______, _______, _______, _______,  _______, MO(FN2), _______
+    _______, _______, _______, _______, _______,  _______, _______, _______
 ),
   /*
   * Layer FN2
@@ -129,10 +129,10 @@ qk_tap_dance_action_t tap_dance_actions[] = {
   */
  [FN2] = LAYOUT_60_ansi( /* FN2 */
     _______, KC_AP2_BT1, KC_AP2_BT2, KC_AP2_BT3, KC_AP2_BT4, _______, _______, _______, _______, KC_AP_RGB_MOD, KC_AP_RGB_TOG, KC_AP_RGB_VAD, KC_AP_RGB_VAI, _______,
-    MO(FN2), _______, KC_UP, _______, _______, _______, _______, _______, _______, _______, KC_PSCR, KC_HOME, KC_END, _______,
+    _______, _______, KC_UP, _______, _______, _______, _______, _______, _______, _______, KC_PSCR, KC_HOME, KC_END, _______,
     _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, KC_PGUP, KC_PGDN, _______,
     _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______, _______, _______, _______, KC_INS, KC_DEL, _______,
-    _______, _______, _______, _______, _______, MO(FN1), MO(FN2), _______
+    _______, _______, _______, _______, _______, _______, _______, _______
  ),
 };
 // clang-format on
