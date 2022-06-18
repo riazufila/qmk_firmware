@@ -31,9 +31,6 @@
 #define MATRIX_COLS 14
 // layer size: MATRIX_ROWS * MATRIX_COLS * sizeof(uint16_t) = 140 bytes
 
-// Tap Dance configurations
-#define TAPPING_TERM 125
-
 #define LINE_UART_TX B0
 #define LINE_UART_RX B1
 
